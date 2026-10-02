@@ -1,0 +1,14 @@
+{
+  "name": "nyblit-plugin",
+  "description": "Nyblit for Claude: work with your Nyblit tasks, workflows and projects through the Nyblit app on your Mac.",
+  "owner": {
+    "name": "David Margolis"
+  },
+  "plugins": [
+    {
+      "name": "nyblit",
+      "source": "./",
+      "description": "Work with your Nyblit tasks, workflows and projects from Claude, through the Nyblit app on your Mac."
+    }
+  ]
+}

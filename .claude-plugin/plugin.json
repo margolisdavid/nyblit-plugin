@@ -1,0 +1,24 @@
+{
+  "name": "nyblit",
+  "displayName": "Nyblit",
+  "version": "1.0.0",
+  "description": "Work with your Nyblit tasks, workflows and projects from Claude: read today's plan, create and edit tasks, move them between tabs, and plan your day through the Nyblit app on your Mac.",
+  "author": {
+    "name": "David Margolis",
+    "url": "https://www.nyblit.app"
+  },
+  "homepage": "https://www.nyblit.app",
+  "repository": "https://github.com/margolisdavid/nyblit-plugin",
+  "license": "MIT",
+  "keywords": ["tasks", "productivity", "todo", "workflows", "planning", "nyblit"],
+  "icon": "./icon.png",
+  "documentationUrl": "https://github.com/margolisdavid/nyblit-plugin#readme",
+  "supportUrl": "https://www.nyblit.app/support",
+  "privacyPolicyUrl": "https://www.nyblit.app/privacy-policy",
+  "mcpServers": {
+    "nyblit": {
+      "command": "bash",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/nyblit-mcp.sh"]
+    }
+  }
+}
