@@ -41,6 +41,7 @@ The plugin collects no data. Everything Claude reads or changes through it stays
 
 - **"Nyblit is not installed on this Mac."** Install Nyblit from the Mac App Store, then start a new session.
 - **Nyblit tools are missing or fewer than expected.** Check the switches under Settings > AI Settings > Task Access for MCP in Nyblit, then start a new session.
+- **Claude sees every Nyblit tool twice.** You have both this plugin and the Claude Desktop connector that Nyblit offers under Settings, and you are in the Claude desktop app's Code tab, which loads both. Nothing breaks: both talk to the same app under the same switches. But the duplicate catalogue costs context, so keep one per surface. The desktop connector is the one that works in chat, where a plugin's local server cannot run; this plugin is the one for Claude Code. If you only use the Code tab, remove the connector under Settings > Extensions in Claude Desktop.
 - **Nothing happens on Linux or Windows.** The connector is Mac only. Claude Code lists the failed server under `/plugin` > **Errors**, and the skill still loads.
 
 ## Support
