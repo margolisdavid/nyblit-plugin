@@ -10,15 +10,22 @@
   "homepage": "https://www.nyblit.app",
   "repository": "https://github.com/margolisdavid/nyblit-plugin",
   "license": "MIT",
-  "keywords": ["tasks", "productivity", "todo", "workflows", "planning", "nyblit"],
+  "keywords": [
+    "tasks",
+    "productivity",
+    "todo",
+    "workflows",
+    "planning",
+    "nyblit"
+  ],
   "icon": "./icon.png",
   "documentationUrl": "https://github.com/margolisdavid/nyblit-plugin#readme",
   "supportUrl": "https://www.nyblit.app/support",
   "privacyPolicyUrl": "https://www.nyblit.app/privacy-policy",
   "mcpServers": {
     "nyblit": {
-      "command": "bash",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/server/nyblit-mcp.sh"]
+      "command": "${CLAUDE_PLUGIN_ROOT}/server/nyblit-mcp.sh",
+      "args": []
     }
   }
 }
